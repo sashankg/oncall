@@ -4,7 +4,8 @@ import Logs from './components/Logs';
 export default {
   Inbox: {
     screen: Inbox,
-  }, {
+  },
+  Logs: {
     screen: Logs,
   },
 }
