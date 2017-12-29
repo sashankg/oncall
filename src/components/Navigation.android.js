@@ -1,12 +1,8 @@
 import { TabNavigator } from 'react-navigation';
 import { NavigationComponent } from 'react-native-material-bottom-navigation';
-import Inbox from './Inbox';
-import Logs from './Logs';
+import tabs from '../Tabs.js';
 
-export default TabNavigator({
-    Inbox: { screen: Inbox },
-    Logs: { screen: Logs },
-}, {
+export default TabNavigator(tabs, {
     tabBarComponent: NavigationComponent,
     tabBarPosition: 'bottom',
 })
