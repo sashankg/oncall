@@ -1,8 +1,6 @@
 import { TabNavigator } from 'react-navigation';
-import Inbox from './Inbox';
+import tabs from '../Tabs';
 
-export default TabNavigator({
-    Inbox: { screen: Inbox }
-}, {
+export default TabNavigator(tabs, {
     tabBarPosition: 'bottom',
 })
